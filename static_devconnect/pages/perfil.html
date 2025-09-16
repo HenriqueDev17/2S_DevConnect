@@ -12,77 +12,105 @@
     <link rel="shortcut icon" href="../images/logo-devconnect-sm.svg" type="image/x-icon">
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/perfil.css">
-
 </head>
-
+<body>
 <header id="cabecalho">
-    <nav>
-        <a href="./perfil.html">
-            <img id="logo-desktop" src="../images/logo-devconnect-md.svg" alt="Logo do DevConnect">
-        </a>
-        <a href="./feed.html">
-            <img id="logo-mobile" src="../images/logo-devconnect-sm.svg" alt="Logo do DevConnect">
-        </a>
-
-        <div class="cabecalho-acoes">
+        <nav>
             <a href="./perfil.html">
-                <img src="../images/icone-casa-azul.svg" alt="">
+                <img id="logo-desktop" src="../images/logo-devconnect-md.svg" alt="Logo do DevConnect">
             </a>
-            <a href="#">
-                <img src="../images/icone-coracao-azul.svg" alt="">
+            <a href="./perfil.html">
+                <img id="logo-mobile" src="../images/logo-devconnect-sm.svg" alt="Logo do DevConnect">
             </a>
-            <a href="#">
-                <img class="foto-perfil" src="../images/foto de perfil.jpg" alt="">
-            </a>
-        </div>
-    </nav>
-</header>
+            <div class="cabecalho-acoes">
+                <a href="./perfil.html">
+                    <img src="../images/icone-casa-azul.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="../images/icone-coracao-azul.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="foto-perfil" src="../images/foto de perfil.jpg" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
 
-   <header>
-       <section class="perfil">
-           <img src="../images/foto de perfil.jpg" alt="Foto de Perfil" class="perfil">
-           <div class="perfil-info">
-               <h2>aldaberto_bucha</h2>
-               <div> <p>10 publicações</p><p>132k seguidores</p><p>33 seguindo</p></div>
-               <h3>Aldaberto da Silva</h3>
-               <div class="botao">
-                   <button class="editar">Editar perfil</button>
+    <main class="container-perfil">
+        <section class="perfil">
+            <img src="../images/foto de perfil.jpg" alt="Foto de Perfil" class="foto-perfil-principal">
+            <div class="perfil-info">
+                <h2 class="nome-usuario">aldaberto_bucha</h2>
+                <div class="perfil-estatisticas">
+                    <p>10 publicações</p>
+                    <p>132k seguidores</p>
+                    <p>33 seguindo</p>
+                </div>
+                <h3 class="nome-completo">Aldaberto da Silva</h3>
+                <div class="botoes-perfil">
+                 <button class="editar-perfil">Editar perfil</button>
                    <button class="sair">Sair</button>
                 </div>
             </div>
         </section>
-    </header>
 
-  <section class="publicacao">
+         <section class="publicacao">
     <h2><img src="../images/icone-galeria-preto.svg" alt="">Publicações</h2>
+            </h2>
 
-    <div class="publicacao">
-      <h3><img src="../images/foto de perfil.jpg" alt="">aldaberto_bucha</h3>
-      <p>Os carros mais bonitos que tem no mundo são aqueles que fizemos pelo caminho</p>
-      <div class="informacao-publicacao">
-        <span><img src="../images/icone-coracao-preto.svg" alt=""></span>
-        <span><img src="../images/icone-comentario-preto.svg" alt=""> 12k curtidas</span>
-      </div>
-      <a href="#">Ver todos os comentários</a>
-    </div>
+            <div class="lista-publicacoes">
+                <article class="post">
+                    
+                    <div class="post-conteudo">
+                       <h3><img src="../images/Ellipse 2.png" alt="">aldaberto_bucha</h3>
+                        <p class="post-texto">Os carros mais bonitos que tem no mundo são aqueles que fizemos pelo caminho</p>
+                        <div class="post-acoes">
+                            <span class="likes">
+                                <img src="../images/icone-coracao-preto.svg" alt="">
+                                <img src="../images/icone-comentario-preto.svg" alt="">
+                            </span>
+                              12k curtidas
+                            <span class="comentarios">
+                                <button type="button">Ver mais comentarios..</button>
+                            </span>
+                        </div>
+                    </div>
+                </article>
 
-    <div class="publicacao">
-      <h3><img src="../images/foto de perfil.jpg" alt="">aldaberto_bucha</h3>
-      <p>Encontro de carros acontecendo agora em Miami Beach,  na Ocean Drive, cola rapaziada!!</p>
-      <div class="informacao-publicacao">
-        <span><img src="../images/icone-coracao-preto.svg" alt=""></span>
-        <span><img src="../images/icone-comentario-preto.svg" alt=""> 139k curtidas</span>
-      </div>
-      <a href="#">Ver todos os comentários</a>
-    </div>
-
-    <div class="publicacao">
-      <h3><img src="../images/foto de perfil.jpg" alt="">aldaberto_bucha</h3>
-      <p>Encontro de carros acontecendo agora em Miami Beach,  na Ocean Drive, cola rapaziada!!</p>
-      <div class="informacao-publicacao">
-        <span><img src="../images/icone-coracao-preto.svg" alt=""></span>
-        <span><img src="../images/icone-comentario-preto.svg" alt=""> 139k curtidas</span>
-      </div>
-      <a href="#">Ver todos os comentários</a>
-    </div>
-  </section>
+                <article class="post">
+                    
+                    <div class="post-conteudo">
+                        <h3><img src="../images/Ellipse 2.png" alt="">aldaberto_bucha</h3>
+                        <p class="post-texto">Encontro de carros acontecendo agora em Miami Beach, na Ocean Drive, cola rapaziada!!</p>
+                        <div class="post-acoes">
+                            <span class="likes">
+                                <img src="../images/icone-coracao-preto.svg" alt="">
+                                <img src="../images/icone-comentario-preto.svg" alt="">
+                            </span>
+                            139k curtidas
+                            <span class="comentarios">
+                                <button type="button">Ver mais comentarios..</button>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post-conteudo">
+                        <h3><img src="../images/Ellipse 2.png" alt="">aldaberto_bucha</h3>
+                        <p class="post-texto">Encontro de carros acontecendo agora em Miami Beach, na Ocean Drive, cola rapaziada!!</p>
+                        <div class="post-acoes">
+                            <span class="likes">
+                                <img src="../images/icone-coracao-preto.svg" alt="">
+                                <img src="../images/icone-comentario-preto.svg" alt=""> 
+                            </span>
+                            139k curtidas
+                            <span class="comentarios">
+                                <button type="button">Ver mais comentarios..</button>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
